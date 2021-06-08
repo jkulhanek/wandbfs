@@ -8,6 +8,7 @@ setup(
     author='Jonáš Kulhánek',
     author_email='jonas.kulhanek@live.com',
     license='MIT License',
+    long_description_content_type='text/markdown',
     long_description=open('README.md').read(),
     install_requires=[x.rstrip('\n') for x in open('requirements.txt')],
     entry_points={
