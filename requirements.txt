@@ -1,2 +1,2 @@
-wandb
-fsspec
+wandb>=0.8.32
+fsspec>=0.9.0
