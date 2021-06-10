@@ -10,6 +10,7 @@ setup(
     license='MIT License',
     long_description_content_type='text/markdown',
     long_description=open('README.md').read(),
+    url='https://github.com/jkulhanek/wandbfs',
     install_requires=[x.rstrip('\n') for x in open('requirements.txt')],
     entry_points={
         'fsspec.specs': [
